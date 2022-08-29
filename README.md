@@ -4,6 +4,7 @@ Scheduling docker actions on Mac using launchd
 Scheduling a task for the current logged in user, the plist file needs to go in the /Library/LaunchAgents folder
 
 ```cd /Library/LaunchAgents```
+
 ```sudo nano update_minecraft.plist```
 
 Once created, to load it without logging out and back in again run the following command
