@@ -1,7 +1,9 @@
-# Scheduling_Docker
-Scheduling docker actions on Mac using launchd
+# Scheduling example using launchd 
 
-Scheduling a task for the current logged in user, the plist file needs to go in the /Library/LaunchAgents folder
+Automating the update of docker containers running Minecraft instances.  Each time the container is recreated it downloads the latest version of bedrock server.
+
+
+Scheduling a task for the current logged in user, the plist file needs to go in the ***/Library/LaunchAgents*** folder
 
 ```cd /Library/LaunchAgents```
 
