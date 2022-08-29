@@ -9,3 +9,4 @@ while IFS= read -r line; do
   pwd
   ./run.sh
 done < minecraft_containers.list
+echo
